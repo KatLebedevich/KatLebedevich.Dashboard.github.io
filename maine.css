@@ -1,0 +1,218 @@
+@font-face {
+    font-family: Nunito;
+    src: url("Nunito.otf");
+}
+@font-face {
+    font-family: Nunito-ExtraBold;
+    src: url("Nunito-ExtraBold.otf");
+}
+
+body {
+    margin: 0;
+    font-family: Nunito, sans-serif;
+}
+
+#header-menu {
+    display: flex;
+}
+#header-result{
+    display: none;
+    position: absolute;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(102, 102, 102, 0.15);
+    border-radius: 10px;
+    width: 150px;
+    padding: 30px 0 15px 20px;
+    left: 221px;
+    top: 59px;
+    font-size: 14px;
+    color: #686464;
+}
+#put:hover #header-result{
+    display: block;
+}
+.header-result-item{
+    margin-bottom: 15px;
+}
+#menu {
+    width: 250px;
+    background: #F7F7F7;
+    flex-shrink: 0;
+    border-right: 2px solid #E2E2E2;
+}
+
+#logo {
+    font-family: Nunito-ExtraBold,sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 25px 0 27px 0;
+    color: black;
+}
+#logo span {
+    color: #467DF2;
+}
+
+#menu-item .menu-item-component {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 13px 32px;
+    margin: 0 17px;
+}
+
+.menu-item-component span{
+    font-size: 14px;
+    line-height: 19px;
+    color: #858796;
+    margin-left: 10px;
+}
+.menu-item-component svg{
+    fill: #858796;
+}
+#menu-item .menu-item-component.active,#menu-item .menu-item-component.active svg, #menu-item .menu-item-component.active span, #menu-item .menu-item-component:hover,
+#menu-item .menu-item-component:hover span, #menu-item .menu-item-component:hover svg{
+    background: #467DF2;
+    color: #FFFFFF;
+    fill: #FFFFFF;
+    border-radius: 5px;
+}
+#content{
+    flex-grow: 1;
+}
+#header{
+    position: relative;
+    background: #F7F7F7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 40px;
+}
+#info{
+    display: flex;
+    align-items: center;
+}
+.info-team{
+    font-size: 14px;
+    color: #858796;
+    line-height: 23px;
+    text-decoration: none;
+}
+.info-team:hover{
+    color: #3D63D2;
+    fill: #3D63D2;
+}
+.info-team svg{
+    margin-left: 5px;
+}
+#info .info-team.margin{
+    margin: 0 40px 0 60px;
+}
+#header-search{
+    display: flex;
+    align-items: center;
+}
+#block{
+    background: #EFEFF5;
+    border: 1px solid #E2E2E2;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 10px 0 11px 20px;
+    width: 373px;
+}
+#block input{
+    outline: none;
+    border: 0;
+    background: #EFEFF5;
+    font-size: 14px;
+    line-height: 14px;
+    margin-left: 10px;
+    padding: 0;
+    width: 300px;
+}
+#block #one{
+    text-decoration: none;
+    vertical-align: middle;
+}
+#svg{
+    fill: #858796;
+    margin: 0 40px 0 40px;
+    text-decoration: none;
+}
+#svg:hover{
+    fill: #467DF2;
+}
+#header-search button{
+    background: #467DF2;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #FFFFFF;
+    border: none;
+    width: 83px;
+    padding: 11px 0 10px 0;
+    outline: none;
+}
+#header-search button:hover{
+    background: #2F54A3;
+}
+#content-block{
+    background: #E5E5E5;
+    padding: 25px 40px;
+}
+#content-block h1{
+    margin: 0;
+    font-size: 35px;
+    color: #4F4E4F;
+    font-family: Nunito-ExtraBold,sans-serif;
+}
+#content-class{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 14px;
+}
+#content-class .content-menu{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(102, 102, 102, 0.15);
+    border-radius: 10px;
+    width: 349px;
+    margin: 18px;
+}
+#content-class .content-menu:hover{
+    box-shadow: 0 0 20px rgba(0,0,0,0.40);
+}
+#content-class img{
+    width: 349px;
+    border-radius: 10px 10px 0 0;
+}
+.text-block{
+    padding: 21px 26px;
+}
+.text-block h2{
+    font-family: Nunito-ExtraBold,sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    color: #4F4E4F;
+    margin: 0;
+}
+.time{
+    font-size: 15px;
+    color: #4F4E4F;
+    margin: 8px 0 18px 0;
+}
+.icon{
+    fill: #858796;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon svg:hover{
+    fill: #467DF2;
+}
+#put{
+    display: inline-block;
+}
